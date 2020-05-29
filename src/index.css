@@ -6,9 +6,9 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: Helvetica, sans-serif;
-  background: url(/img/bg.jpg) no-repeat;
-  background-size: 100vw 100vh;
-  background-position: top;
+  background: url(/img/bg.jpg);
+  background-size: 100vw 100%;
+  background-position: bottom;
   background-color: white;
   overflow-x: hidden;
   min-height: 100%;
@@ -28,4 +28,8 @@ input[type=password]:not(.browser-default):focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]){
   border-color: #4527a0;
   box-shadow: none;
+}
+
+.dashboard{
+  margin-top: 60px;
 }
